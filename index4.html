@@ -37,10 +37,10 @@
 					center:latlon,zoom :17,
 					mapTypeId:google.maps.MapTypeId.ROADMAP,
 					mapTypeControl :false,
-					navigatorControlOptions:{style:google.maps.NavigatorContlolStyle.SMALL}
+					navigatorControlOptions:{style:google.maps.NavigationContlolStyle.SMALL}
 				};
 				var map=new google.maps.Map(document.getElementById("mapholder"),myOptions);
-				varmarker=new google.map.Marker({position:latlon,map:map,title:"You are here!"});
+				varmarker=new google.maps.Marker({position:latlon,map:map,title:"You are here!"});
 			}
 			function showError(error)
 			{
